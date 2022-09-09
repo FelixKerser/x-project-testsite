@@ -1,0 +1,149 @@
+@media screen and (max-width: 1250px){
+    .w-100 {
+        width: 110vw !important;
+        height: 103vh;
+    }
+    .carousel-indicators{
+        left: -11%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .w-100 {
+        width: 130vw !important;
+        height: 103vh;
+    }
+
+    .carousel-indicators{
+        left: -25%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .big-title__h1{
+        font-size:65px;
+        line-height:85px;
+    }
+
+    .w-100 {
+        width: 160vw !important;
+        height: 103vh;
+    }
+
+    .carousel-indicators{
+        left: -35%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    html,body{
+        overflow-x: hidden;
+    }
+
+    .second-section{
+        margin-top: 50vh;
+    }
+
+    .why-text{
+        padding-right: 0;
+    }
+
+    .carousel-indicators{
+        margin-bottom: 2rem;
+        display: block;
+        left: 3%;
+    }
+
+    .logo{
+        text-align: center;
+        margin-bottom:15px;
+    }
+
+    .logo__a{
+        font-size: 35px;
+        float:none;
+    }
+
+    li{
+        margin-left: 7px;
+    }
+
+    .w-100 {
+        width: 250vw !important;
+        height: 103vh;
+    }
+
+    .all{
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .big-title__h1{
+        font-size:80px;
+        line-height:75px;
+    }
+
+    .small-text__h2{
+        font-size: 45px;
+        line-height:55px;
+    }
+
+    #order-call{
+        width:97vw;
+    }
+}
+
+@media screen and (max-width: 450px){
+    
+    .x__img{
+        height:45px;
+        width:45px;
+        filter: invert(50%); 
+        -webkit-filter: invert(50%); 
+    }
+
+    .obloz__img{
+        display: none;
+    }
+
+    .carousel-indicators{
+        margin-bottom: 1rem;
+    }
+
+    .big-title__h1{
+        font-size:65px;
+        line-height:75px;
+    }
+
+    .small-text__h2{
+        font-size: 35px;
+        line-height:45px;
+    }
+
+    #order-call{
+        justify-content: center;
+    }
+
+    #btn-join{
+        width:225px;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .second-section{
+        margin-top: 26vh;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .big-title__h1{
+        font-size:50px;
+        line-height:50px;
+    }
+
+    .small-text__h2{
+        font-size: 30px;
+        line-height:35px;
+    }
+}
